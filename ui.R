@@ -16,7 +16,7 @@ shinyUI(pageWithSidebar(
     mainPanel(
         p("This app is used to predict mpg values for a car based on 1974", em("Motor Trend"), "data."),
         p("The mpg is predicted by linear model consisting of transmission type, number of cylinders, horsepower and car weight (1000 lbs)."),
-        p("A", a(href = "www.apple.com", "5-page presentation"), "is used to summarizes data processing and regression model."),
+        p("A", a(href = "https://xinyuanwu9.github.io/Data-Products-Course-Project/index.html#1", "5-page presentation"), "is used to summarizes data processing and regression model."),
         hr(),
         plotOutput("hist")
         
